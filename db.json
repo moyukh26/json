@@ -1,21 +1,272 @@
-{
-  "posts": [
-    { "id": 1, 
-     "title": "Post 1" },
-    { "id": 2, 
-     "title": "Post 2" },
-    { "id": 3, 
-     "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, 
-     "body": "some comment",
-     "postId": 1 },
-    { "id": 2, 
-     "body": "some comment", 
-     "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+{  
+   "products":[  
+      {  
+         "id":1572194123831,
+         "title":"product for testing",
+         "body_html":"product for testing body",
+         "vendor":"NIFI DEMO",
+         "product_type":"",
+         "created_at":"2019-05-09T01:15:44-04:00",
+         "handle":"product-for-testing",
+         "updated_at":"2019-05-09T01:15:44-04:00",
+         "published_at":"2019-05-09T01:15:44-04:00",
+         "template_suffix":null,
+         "tags":"",
+         "published_scope":"web",
+         "admin_graphql_api_id":"gid:\/\/shopify\/Product\/1572194123831",
+         "variants":[  
+            {  
+               "id":13829949685815,
+               "product_id":1572194123831,
+               "title":"Default Title",
+               "price":"0.00",
+               "sku":"",
+               "position":1,
+               "inventory_policy":"deny",
+               "compare_at_price":null,
+               "fulfillment_service":"manual",
+               "inventory_management":null,
+               "option1":"Default Title",
+               "option2":null,
+               "option3":null,
+               "created_at":"2019-05-09T01:15:44-04:00",
+               "updated_at":"2019-05-09T01:15:44-04:00",
+               "taxable":true,
+               "barcode":null,
+               "grams":0,
+               "image_id":null,
+               "weight":0.0,
+               "weight_unit":"kg",
+               "inventory_item_id":14037412577335,
+               "inventory_quantity":0,
+               "old_inventory_quantity":0,
+               "requires_shipping":true,
+               "admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/13829949685815"
+            }
+         ],
+         "options":[  
+            {  
+               "id":2107545550903,
+               "product_id":1572194123831,
+               "name":"Title",
+               "position":1,
+               "values":[  
+                  "Default Title"
+               ]
+            }
+         ],
+         "images":[  
+
+         ],
+         "image":null
+      },
+      {  
+         "id":1572194844727,
+         "title":"product for testing",
+         "body_html":"product for testing body",
+         "vendor":"NIFI DEMO",
+         "product_type":"",
+         "created_at":"2019-05-09T01:23:32-04:00",
+         "handle":"product-for-testing-1",
+         "updated_at":"2019-05-09T01:23:33-04:00",
+         "published_at":"2019-05-09T01:23:32-04:00",
+         "template_suffix":null,
+         "tags":"",
+         "published_scope":"web",
+         "admin_graphql_api_id":"gid:\/\/shopify\/Product\/1572194844727",
+         "variants":[  
+            {  
+               "id":13829958402103,
+               "product_id":1572194844727,
+               "title":"Default Title",
+               "price":"0.00",
+               "sku":"",
+               "position":1,
+               "inventory_policy":"deny",
+               "compare_at_price":null,
+               "fulfillment_service":"manual",
+               "inventory_management":null,
+               "option1":"Default Title",
+               "option2":null,
+               "option3":null,
+               "created_at":"2019-05-09T01:23:33-04:00",
+               "updated_at":"2019-05-09T01:23:33-04:00",
+               "taxable":true,
+               "barcode":null,
+               "grams":0,
+               "image_id":null,
+               "weight":0.0,
+               "weight_unit":"kg",
+               "inventory_item_id":14037421293623,
+               "inventory_quantity":0,
+               "old_inventory_quantity":0,
+               "requires_shipping":true,
+               "admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/13829958402103"
+            }
+         ],
+         "options":[  
+            {  
+               "id":2107546632247,
+               "product_id":1572194844727,
+               "name":"Title",
+               "position":1,
+               "values":[  
+                  "Default Title"
+               ]
+            }
+         ],
+         "images":[  
+
+         ],
+         "image":null
+      },
+      {  
+         "id":1572200742967,
+         "title":"product for testing",
+         "body_html":"product for testing body",
+         "vendor":"NIFI DEMO",
+         "product_type":"",
+         "created_at":"2019-05-09T02:00:29-04:00",
+         "handle":"product-for-testing-2",
+         "updated_at":"2019-05-09T02:00:29-04:00",
+         "published_at":"2019-05-09T02:00:29-04:00",
+         "template_suffix":null,
+         "tags":"",
+         "published_scope":"web",
+         "admin_graphql_api_id":"gid:\/\/shopify\/Product\/1572200742967",
+         "variants":[  
+            {  
+               "id":13830061391927,
+               "product_id":1572200742967,
+               "title":"Default Title",
+               "price":"0.00",
+               "sku":"",
+               "position":1,
+               "inventory_policy":"deny",
+               "compare_at_price":null,
+               "fulfillment_service":"manual",
+               "inventory_management":null,
+               "option1":"Default Title",
+               "option2":null,
+               "option3":null,
+               "created_at":"2019-05-09T02:00:29-04:00",
+               "updated_at":"2019-05-09T02:00:29-04:00",
+               "taxable":true,
+               "barcode":null,
+               "grams":0,
+               "image_id":null,
+               "weight":0.0,
+               "weight_unit":"kg",
+               "inventory_item_id":14037524545591,
+               "inventory_quantity":0,
+               "old_inventory_quantity":0,
+               "requires_shipping":true,
+               "admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/13830061391927"
+            }
+         ],
+         "options":[  
+            {  
+               "id":2107556102199,
+               "product_id":1572200742967,
+               "name":"Title",
+               "position":1,
+               "values":[  
+                  "Default Title"
+               ]
+            }
+         ],
+         "images":[  
+
+         ],
+         "image":null
+      },
+      {  
+         "id":1571541286967,
+         "title":"product1",
+         "body_html":"",
+         "vendor":"NIFI DEMO",
+         "product_type":"",
+         "created_at":"2019-05-08T07:48:13-04:00",
+         "handle":"product1",
+         "updated_at":"2019-05-08T07:49:32-04:00",
+         "published_at":"2019-05-08T07:46:55-04:00",
+         "template_suffix":null,
+         "tags":"",
+         "published_scope":"web",
+         "admin_graphql_api_id":"gid:\/\/shopify\/Product\/1571541286967",
+         "variants":[  
+            {  
+               "id":13824497975351,
+               "product_id":1571541286967,
+               "title":"Default Title",
+               "price":"0.00",
+               "sku":"50",
+               "position":1,
+               "inventory_policy":"continue",
+               "compare_at_price":"10.00",
+               "fulfillment_service":"manual",
+               "inventory_management":"shopify",
+               "option1":"Default Title",
+               "option2":null,
+               "option3":null,
+               "created_at":"2019-05-08T07:48:13-04:00",
+               "updated_at":"2019-05-08T07:48:13-04:00",
+               "taxable":true,
+               "barcode":"ABC!@#",
+               "grams":100,
+               "image_id":null,
+               "weight":100.0,
+               "weight_unit":"g",
+               "inventory_item_id":14031921905719,
+               "inventory_quantity":50,
+               "old_inventory_quantity":50,
+               "requires_shipping":true,
+               "admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/13824497975351"
+            }
+         ],
+         "options":[  
+            {  
+               "id":2106627653687,
+               "product_id":1571541286967,
+               "name":"Title",
+               "position":1,
+               "values":[  
+                  "Default Title"
+               ]
+            }
+         ],
+         "images":[  
+            {  
+               "id":4573761503287,
+               "product_id":1571541286967,
+               "position":1,
+               "created_at":"2019-05-08T07:48:19-04:00",
+               "updated_at":"2019-05-08T07:48:19-04:00",
+               "alt":null,
+               "width":1346,
+               "height":690,
+               "src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0080\/8471\/7623\/products\/abc_imahr.png?v=1557316099",
+               "variant_ids":[  
+
+               ],
+               "admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/4573761503287"
+            }
+         ],
+         "image":{  
+            "id":4573761503287,
+            "product_id":1571541286967,
+            "position":1,
+            "created_at":"2019-05-08T07:48:19-04:00",
+            "updated_at":"2019-05-08T07:48:19-04:00",
+            "alt":null,
+            "width":1346,
+            "height":690,
+            "src":"https:\/\/cdn.shopify.com\/s\/files\/1\/0080\/8471\/7623\/products\/abc_imahr.png?v=1557316099",
+            "variant_ids":[  
+
+            ],
+            "admin_graphql_api_id":"gid:\/\/shopify\/ProductImage\/4573761503287"
+         }
+      }
+   ]
 }
